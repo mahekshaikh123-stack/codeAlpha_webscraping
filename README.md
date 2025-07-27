@@ -1,20 +1,20 @@
-# codeAlpha-webscraping
+# CodeAlpha Internship - Task 1: Web Scraping
 
-This project is a web scraping tool created for the CodeAlpha internship.
+This is Task 1 of my internship with CodeAlpha. In this project, I scraped quotes and their authors from a website using Python, BeautifulSoup, and Requests, and stored them in a CSV file.
 
-## Features
-- Scrapes data from websites
-- Saves data in CSV/JSON
-- User-friendly interface
-
-## Technologies Used
+## 🔧 Technologies Used:
 - Python
+- Google Colab
 - BeautifulSoup
 - Requests
+- Pandas
+- Matplotlib
 
-## How to Run
-1. Clone the repository
-2. Install dependencies: pip install -r requirements.txt
-3. Run the script: python scraper.py
-## license
-MIT
+## 📁 Output Files:
+- quotes.csv: Scraped data
+- quotes_project.ipynb: The full Python code
+
+## 📊 Summary:
+- Scraped 10 quotes from [quotes.toscrape.com](http://quotes.toscrape.com)
+- Saved the dataset into a custom CSV file
+- Visualized number of quotes per author
